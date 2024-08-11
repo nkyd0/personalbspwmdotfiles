@@ -1,0 +1,77 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+	  "type": "kitty",
+	  "source": "~/.config/fastfetch/teto.png",
+	  "width": 23,
+	  "height": 10
+},
+  "display": {
+        "separator": " "
+    },
+  "modules": [
+    {
+	    "type": "os",
+	    "key": "操作系统",
+	    "keyColor": "95"
+	},
+   // "host",
+   {
+	   "type": "kernel",
+	   "key": "电脑内核",
+	   "keyColor": "95"
+   },
+   {
+	   "type": "uptime",
+	   "key": "几久运行",
+	   "keyColor": "95"
+   },
+   {
+	   "type": "packages",
+	   "key": "这软件包",
+	   "keyColor": "95"
+   },
+   {
+	   "type": "shell",
+	   "key": "中文没名",
+	   "keyColor": "95"
+   },
+   // "display",
+   // "de",
+   {
+	   "type": "wm",
+	   "key": "窗口管理",
+	   "keyColor": "95"
+   },
+   // "wmtheme",
+   // "theme",
+   // "icons",
+   // "font",
+   // "cursor",
+   {
+	   "type": "terminal",
+	   "key": "电脑终端",
+	   "keyColor": "95"
+   },
+   // "terminalfont",
+   // "cpu",
+   // "gpu",
+   {
+	   "type": "memory",
+	   "key": "电脑内存",
+	   "keyColor": "95"
+   },
+   // "swap",
+   // "disk",
+   // "localip",
+   {
+	   "type": "battery",
+	   "key": "电脑电池",
+	   "keyColor": "95"
+   }
+   // "poweradapter",
+   // "locale",
+   // "break",
+   // "colors"
+ ]
+}
