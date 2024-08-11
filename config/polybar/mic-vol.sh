@@ -6,9 +6,9 @@ get_volume() {
     mute_status=$(pactl list sources | grep -A 15 "$default_source" | grep -m 1 "Mute" | awk '{print $2}')
     volume="${volume%?}"
     if [ "$mute_status" = "yes" ]; then
-        echo "mic muted"
+        echo "无声"
     else
-        echo "%{F#c4a7e7}mic%{F-} ${volume}%"
+        echo "%{F#c4a7e7}麦%{F-} ${volume}%"
     fi
 }
 case "$1" in
